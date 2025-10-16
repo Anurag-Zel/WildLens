@@ -1,24 +1,16 @@
 import { GoogleGenAI } from "@google/genai";
 
 export default async function handler(req, res) {
-  // Allow browser requests from any origin
+  // Allow browser requests
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
-  // Handle preflight OPTIONS request
-  if (req.method === "OPTIONS") {
-    return res.status(200).end();
-  }
-
-  if (req.method !== "POST") {
-    return res.status(405).json({ error: "Method Not Allowed" });
-  }
+  if (req.method === "OPTIONS") return res.status(200).end();
+  if (req.method !== "POST") return res.status(405).json({ error: "Method Not Allowed" });
 
   const { animal_name } = req.body;
-  if (!animal_name) {
-    return res.status(400).json({ error: "animal_name is required" });
-  }
+  if (!animal_name) return res.status(400).json({ error: "animal_name is required" });
 
   try {
     const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
@@ -27,7 +19,6 @@ export default async function handler(req, res) {
       contents: `3 facts about ${animal_name}`,
     });
 
-    // Return only plain text to frontend
     res.status(200).send(response.text);
   } catch (err) {
     console.error(err);
