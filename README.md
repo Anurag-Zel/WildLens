@@ -37,19 +37,19 @@ You can test the app using the following image URLs:
 
 - **Dolphin:** 
 ```bash
-(https://media.istockphoto.com/id/94323862/photo/dolphin-jump-out-of-the-water-in-sea.jpg?s=612x612&w=0&k=20&c=BONzkIngL_B-xZDc7DdLJI-CcYdED0IT5FzRQpoldlg=)
+https://media.istockphoto.com/id/94323862/photo/dolphin-jump-out-of-the-water-in-sea.jpg?s=612x612&w=0&k=20&c=BONzkIngL_B-xZDc7DdLJI-CcYdED0IT5FzRQpoldlg=
 ```
 - **Dog:** 
 ```bash
-(https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*)
+https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*
 ```
 - **Tiger:**
 ```bash
-(https://media.istockphoto.com/id/1420676204/photo/portrait-of-a-royal-bengal-tiger-alert-and-staring-at-the-camera-national-animal-of-bangladesh.jpg?s=612x612&w=0&k=20&c=0OCYv99Ktv3fJ-YYlg7SetHBJj3pIk58WY7GDy5VCtI=)
+https://media.istockphoto.com/id/1420676204/photo/portrait-of-a-royal-bengal-tiger-alert-and-staring-at-the-camera-national-animal-of-bangladesh.jpg?s=612x612&w=0&k=20&c=0OCYv99Ktv3fJ-YYlg7SetHBJj3pIk58WY7GDy5VCtI=
 ```
 - **Elephant:**
 ```bash
-(https://media.istockphoto.com/id/1452952557/photo/big-tusker-craig-in-amboseli-kenya-with-a-clouded-sky-in-the-background.jpg?s=612x612&w=0&k=20&c=Hs2YQUox5mIG0NJlyhqNjRklTGvkVmk_UfHs18lYg6E=)
+https://media.istockphoto.com/id/1452952557/photo/big-tusker-craig-in-amboseli-kenya-with-a-clouded-sky-in-the-background.jpg?s=612x612&w=0&k=20&c=Hs2YQUox5mIG0NJlyhqNjRklTGvkVmk_UfHs18lYg6E=
 ```
 
 ---
