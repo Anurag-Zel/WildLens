@@ -48,7 +48,7 @@ const HomePage = () => {
 
     setLoadingFacts(true);
     try {
-      const response = await fetch("http://localhost:4000/gemini", {
+      const response = await fetch("https://wild-lens-eight.vercel.app/api/gemini.js", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ animal_name: result }),
