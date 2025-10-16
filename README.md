@@ -8,10 +8,6 @@ WildLens is a web application that identifies animals in images and provides int
 
 Users can paste an animal image URL, get the predicted animal name, and optionally fetch **3 interesting facts** about that animal.
 
-> [Preview Video 1](./Tiger.mov)
-
-> [Preview Video 2](./Dolphin.mov)
-
 ---
 
 ## Live Demo
